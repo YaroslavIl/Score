@@ -1,0 +1,263 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+
+$fz-1: 13px;
+$color1: #F39200;
+$color2: #3D3D3C;
+$color3: #ffff;
+$bg-color1: #F4ECE8;
+.bg-color-1{
+    background-color: $bg-color1;
+}
+.link--m{
+    &::after{
+            content: url('../img/Vector\ 5.svg');
+            display: inline-block;
+            width: 10px;
+            height: 5px;
+            padding-left: 10px;
+        }
+}
+.orange{
+    color: $color1;
+}
+
+.big-card-text{
+    font-weight: 500;
+    font-size: $fz-1;
+    line-height: 130.4%;
+    color: $color1;
+}
+
+.mondi-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 136%;
+    color: $color2;
+}
+.subtitle-text{
+    font-weight: 700;
+    font-size: $fz-1;
+    line-height: 140%;
+    color: $color2;
+}
+
+.title{
+font-family: 'Abhaya Libre';
+font-weight: 700;
+font-size: 60px;
+line-height: 103.5%;
+color: $color2;
+@media (max-width: 992px) {
+            font-size: 40px;
+        }
+}
+
+
+body{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.header{
+
+// =====================================burger-menu============================================
+    .header-position{
+        @media (max-width:1400px) {
+            background-color: #3d39353d;
+            width: 100%;
+        }
+    }
+
+    .header-link{
+        font-weight: 500;
+        font-size: $fz-1;
+        line-height: 140%;
+        color: $color2;
+        @media (max-width:1400px){
+            font-size: 20px;
+        }
+    }
+    .block{
+        height: 125px;
+    }
+    // =====================================burger-menu============================================
+
+    .header-fon{
+        background: linear-gradient(270deg, #3D3D3C 0%, rgba(61, 61, 60, 0.2) 100%),url('../img/header-fon.png') center/cover no-repeat;
+        padding: 52px 0;
+    }
+
+    .header-title{
+        font-size: 60px;
+        color: $color3;
+        padding-top: 310px;
+        margin-bottom: 10px;
+        @media (max-width: 992px) {
+            font-size: 34px;
+        }
+    }
+    .header-subtitle{
+        font-weight: 500;
+        font-size: $fz-1;
+        line-height: 140%;
+        color: $color3;
+    }
+    .header-text-blok{
+        margin: 15px 19px 11px 19px;
+    }
+    .header-card-subtitle{
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 160%;
+        letter-spacing: 0.01em;
+        color: $color1;
+    }
+    .header-card-title{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        color: $color2;
+    }
+}
+
+
+.news{
+    padding: 42px 0 80px 0;
+    .big-card-title{
+        font-family: 'Abhaya Libre';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 114.3%;
+        color: $color2;
+        @media (max-width: 992px) {
+            font-size: 30px;
+        }
+    }
+    .big-card-subtitle{
+        font-family: 'Noto Serif';
+        font-size: $fz-1;
+        line-height: 150%;
+        color: $color2;
+        margin: 50px 0 25px 0;
+    }
+    .big-card-text--color{
+        color: $color2;
+    }
+    .big-card-text--fz{
+        font-weight: 400;
+        color: $color2;
+        font-family: 'Noto Serif';
+        margin: 25px 0 74px 0;
+        @media (max-width: 700px) {
+            margin: 0;
+        }
+    }
+    .smoll-card-title{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        color: $color2;
+        @media (max-width: 992px) {
+            font-size: 15px;
+            line-height: 110%;
+        }
+    }
+    .news-small-text-card{
+        font-family: 'Noto Serif';
+        font-size: 9px;
+        line-height: 160%;
+        color: $color2;
+    }
+}
+
+.mondi{
+    padding: 82px 0 92px 0;
+
+    .container-pading-mondi{
+        padding: 86px 0 111px 0;
+    }
+    .mondi-card{
+        margin-top: 92px;
+    }
+    .mondi-card-height{
+        height: 136px;
+        width: 200px;
+        @media (max-width:1400px) {
+            margin-top: 70px;
+        }
+    }
+    .mondi-card-text{
+        font-weight: 500;
+        font-size: $fz-1;
+        line-height: 140%;
+        color: $color2;
+    }
+    .mondi-circle{
+        width: 122px;
+        height: 122px;
+        background-color: $color2;
+    }
+}
+
+.tutorial{
+    padding: 76px 0 104px 0;
+    .tutorial-color{
+    color: $color2;
+    }
+
+    .tutorial-card-title{
+        font-family: 'Abhaya Libre';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120.5%;
+        color: $color2;
+        margin: 0 0 67px 0;
+        @media (max-width:600px){
+            font-size: 25px;
+        }
+    }
+}
+
+.sponsor{
+    padding: 88px 0 100px 0;
+    .container-pading-sponsor{
+        padding: 72px 0 130px 0;
+    }
+    .slider-item{
+        font-size: $fz-1;
+        line-height: 195%;
+        color: $color2;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    @media (max-width: 576px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .carousel-control-prev-icon{
+        background: url('../img/right.png') no-repeat;
+    }
+    .carousel-control-next-icon{
+        background: url('../img/left.png') no-repeat;
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        width: 3%;
+        padding: 10px;
+        @media (max-width: 1400px) {
+            padding: 7px;
+        }
+        @media (max-width: 1200px) {
+            padding: 0;
+        }
+    }
+}

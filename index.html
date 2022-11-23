@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+    <title>bootstrap</title>
+</head>
+<body>
+    <header class="header">
+          <!-- ============================burger-menu===================================================== -->
+        <nav class="navbar navbar-expand-xxl fixed-top py-3 bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand "><img class="img-fluid mx-md-5" src="./img/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-xxl-around py-sm-5 py-xxl-0 header-position" id="navbarNavDropdown">
+                    <ul class="navbar-nav align-items-center gap-5">
+                        <li class="nav-item dropdown">
+                            <a  class="nav-link link--m header-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Magazine</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item header-link">Magazine</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a  class="link--m nav-link header-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Corsi</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item header-link">Corsi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a  class="link--m nav-link header-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fiere</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item header-link">Fiere</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a  class="link--m nav-link header-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Negozi</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item header-link">Negozi</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav align-items-center justify-content-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link border-end pe-4"><img src="./img/lupa.png" alt=""></a>
+                            </li>
+                            <li class="nav-item dropdown ms-xxl-5">
+                                <a  class="link--m nav-link header-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img class="me-4" src="./img/avatarka.png" alt=""> Annachiara</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="block"></div>
+        <!-- ============================burger-menu===================================================== -->
+        <div class="header-fon">
+            <div class="container-xl d-flex flex-column flex-lg-row">
+                <div class="col-xl-8 col-lg-7">
+                    <h1 class=" lh-base fw-bold header-title col-12">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod </h1>
+                    <p class="header-subtitle">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod </p>
+                </div>
+                <div class="col-xl-4 col-lg-5 d-flex flex-column align-items-lg-end  gap-4
+                justify-content-center">
+                    <div class="col-lg-10 bg-white d-flex">
+                        <div class="-header-card-img m-1">
+                            <img src="./img/header1.png" alt="">
+                        </div>
+                        <div class="header-text-blok d-flex flex-column justify-content-between">
+                            <p class="header-card-subtitle">Lorem ipsum</p>
+                            <h4 class="header-card-title">Lorem ipsum dolor sit amet</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 bg-white d-flex">
+                        <div class="-header-card-img m-1">
+                            <img src="./img/header2.png" alt="">
+                        </div>
+                        <div class="header-text-blok d-flex flex-column justify-content-between">
+                            <p class="header-card-subtitle">Lorem ipsum</p>
+                            <h4 class="header-card-title">Lorem ipsum dolor sit amet</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 bg-white d-flex">
+                        <div class="-header-card-img m-1">
+                            <img src="./img/header3.png" alt="">
+                        </div>
+                        <div class="header-text-blok d-flex flex-column justify-content-between">
+                            <p class="header-card-subtitle">Lorem ipsum</p>
+                            <h4 class="header-card-title">Lorem ipsum dolor sit amet</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="news bg-color-1">
+            <div class="container-xl">
+                <div class="d-flex justify-content-between border-bottom border-secondary">
+                    <h2 class="news-title title">News</h2>
+                    <p class="align-self-end m-0 subtitle-text">Vedi tutte</pc>
+                </div>
+                <div class="row mt-4">
+                    <div class="col col-xl-8 col-lg-7">
+                        <div class="card text-center">
+                            <img src="./img/news-img1.png" class="m-1" alt="">
+                            <div class="card-body">
+                                <p class="card-text big-card-text mb-2">Lorem ipsum </p>
+                                <h5 class="card-title big-card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit</h5>
+                                <p class="card-text big-card-subtitle">Di <span class="orange">Angela Rossi</span> </p>
+                                <a href="#" class="btn border-dark w-100 big-card-text big-card-text--color">Scopri di più</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xl-4 col-lg-5">
+                        <div class="card mt-2 mt-lg-0">
+                            <div class="row">
+                                <div class="col-4 col-lg-6">
+                                    <img src="./img/news-img-2.png" class="m-1 card-img" alt="">
+                                </div>
+                                <div class="col-8 col-lg-6">
+                                    <div class="card-body">
+                                        <p class="card-text big-card-text mb-2">Lorem ipsum</p>
+                                        <h5 class="card-title smoll-card-title">Lorem ipsum dolor sit amet</h5>
+                                        <p class="card-text big-card-text big-card-text--fz">Lorem ipsum dolor sit amet...</p>
+                                        <p class="card-text news-small-text-card">di <span class="orange">Lorem ipsum</span></p>
+                                        <a href="#" class="btn border-dark w-100 big-card-text big-card-text--color">Scopri di più</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-2">
+                            <div class="row">
+                                <div class="col-4 col-lg-6">
+                                    <img src="./img/news-img-3.png" class="m-1 card-img" alt="">
+                                </div>
+                                <div class="col-8 col-lg-6">
+                                    <div class="card-body">
+                                        <p class="card-text big-card-text mb-2">Lorem ipsum</p>
+                                        <h5 class="card-title smoll-card-title">Lorem ipsum dolor sit amet</h5>
+                                        <p class="card-text big-card-text big-card-text--fz">Lorem ipsum dolor sit amet...</p>
+                                        <p class="card-text news-small-text-card">di <span class="orange">Lorem ipsum</span></p>
+                                        <a href="#" class="btn border-dark w-100 big-card-text big-card-text--color">Scopri di più</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mondi">
+            <div class="container-xl bg-color-1">
+                <div class="col-10 mx-auto container-pading-mondi">
+                    <div class="row border-bottom border-secondary">
+                        <h5 class="mondi-title p-0">Mondi</h5>
+                    </div>
+                    <div class="row mondi-card justify-content-md-between justify-content-center gap-3">
+                        <div class="col-2 bg-white position-relative mondi-card-height d-flex justify-content-center align-items-end">
+                            <div class=" d-flex justify-content-center align-items-center rounded-circle position-absolute bottom-50 start-50 translate-middle-x mondi-circle">
+                                <img src="./img/mondi-img-1.png" class="p-4" alt="">
+                            </div>
+                            <p class="p-0 mondi-card-text">Cucito & Filato</p>
+                        </div>
+                        <div class="col-2 bg-white position-relative mondi-card-height d-flex justify-content-center align-items-end">
+                            <div class=" d-flex justify-content-center align-items-center rounded-circle position-absolute bottom-50 start-50 translate-middle-x mondi-circle">
+                                <img src="./img/mondi-img-2.png" class="p-4" alt="">
+                            </div>
+                            <p class="p-0 mondi-card-text">Carta, Scrap & Colore</p>
+                        </div>
+                        <div class="col-2 bg-white position-relative mondi-card-height d-flex justify-content-center align-items-end">
+                            <div class=" d-flex justify-content-center align-items-center rounded-circle position-absolute bottom-50 start-50 translate-middle-x mondi-circle">
+                                <img src="./img/mondi-img-3.png" class="p-4" alt="">
+                            </div>
+                            <p class="p-0 mondi-card-text">Decorazione</p>
+                        </div>
+                        <div class="col-2 bg-white position-relative mondi-card-height d-flex justify-content-center align-items-end">
+                            <div class=" d-flex justify-content-center align-items-center rounded-circle position-absolute bottom-50 start-50 translate-middle-x mondi-circle">
+                                <img src="./img/mondi-img-4.png" class="p-4" alt="">
+                            </div>
+                            <p class="p-0 mondi-card-text">Ricamo & Tradizione</p>
+                        </div>
+                        <div class="col-2 bg-white position-relative mondi-card-height d-flex justify-content-center align-items-end">
+                            <div class=" d-flex justify-content-center align-items-center rounded-circle position-absolute bottom-50 start-50 translate-middle-x mondi-circle">
+                                <img src="./img/mondi-img-5.png" class="p-4" alt="">
+                            </div>
+                            <p class="p-0 mondi-card-text">Bijoux & Accessori</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tutorial bg-color-1">
+            <div class="container-xl">
+                <div class="d-flex justify-content-between border-bottom border-secondary">
+                    <h2 class="tutorial-title title">Tutorial</h2>
+                    <p class="align-self-end m-0 subtitle-text">Vedi tutte</pc>
+                </div>
+                <div class="row mt-4">
+
+                    <div class="col-10 mx-auto mt-3 col-md-8 m-lg-0 col-lg-4">
+                        <div class="card">
+                            <img src="./img/tutorial-img-1.png" class="m-1" alt="">
+                            <div class="card-body">
+                                <div class="row justify-content-between">
+                                    <p class="card-text w-auto big-card-text tutorial-color">Durata</p>
+                                    <p class="card-text w-auto big-card-text tutorial-color">di <span class="orange">Angelica Foschi</span></p>
+                                </div>
+
+                                <h5 class="card-title tutorial-card-title">Lorem ipsum dolor sit, consectetur adipisci</h5>
+                                <a href="#" class="btn border-dark w-100 big-card-text tutorial-color">Guarda</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 mx-auto mt-3 col-md-8 m-lg-0 col-lg-4">
+                        <div class="card">
+                            <img src="./img/tutorial-img-2.png" class="m-1" alt="">
+                            <div class="card-body">
+                                <div class="row justify-content-between">
+                                    <p class="card-text w-auto big-card-text tutorial-color">Durata</p>
+                                    <p class="card-text w-auto big-card-text tutorial-color">di <span class="orange">Angelica Foschi</span></p>
+                                </div>
+
+                                <h5 class="card-title tutorial-card-title">Lorem ipsum dolor sit, consectetur adipisci</h5>
+                                <a href="#" class="btn border-dark w-100 big-card-text tutorial-color">Guarda</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 mx-auto mt-3 col-md-8 m-lg-0 col-lg-4">
+                        <div class="card">
+                            <img src="./img/tutorial-img-3.png" class="m-1" alt="">
+                            <div class="card-body">
+                                <div class="row justify-content-between">
+                                    <p class="card-text w-auto big-card-text tutorial-color">Durata</p>
+                                    <p class="card-text w-auto big-card-text tutorial-color">di <span class="orange">Angelica Foschi</span></p>
+                                </div>
+
+                                <h5 class="card-title tutorial-card-title">Lorem ipsum dolor sit, consectetur adipisci</h5>
+                                <a href="#" class="btn border-dark w-100 big-card-text tutorial-color">Guarda</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="sponsor">
+            <div class="container-xl bg-color-1">
+                <div class="col-10 mx-auto container-pading-sponsor">
+                    <div class="d-flex justify-content-between border-bottom border-secondary">
+                        <h5 class="mondi-title p-0">Sponsor</h5>
+                        <p class="align-self-end m-0 subtitle-text">Vedi tutte</pc>
+                    </div>
+                    <!-- слайде -->
+                    <div id="carouselExampleControls" class="carousel slide mt-4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active ">
+                            <div class="row gap-3 flex-wrap justify-content-center">
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row gap-3 flex-wrap justify-content-center">
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                                <div class="col-xl-2 col-md-5 col-sm-4 col-9 bg-white slider-item d-flex justify-content-center align-items-center">Sponsor</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
