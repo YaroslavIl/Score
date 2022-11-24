@@ -15,11 +15,30 @@
   color: #F39200;
 }
 
+.li-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 136%;
+  color: #3D3D3C;
+  margin-bottom: 8px;
+}
+
 .big-card-text {
   font-weight: 500;
   font-size: 13px;
   line-height: 130.4%;
   color: #F39200;
+}
+
+.big-card-text--color {
+  color: #3D3D3C;
+}
+
+.subtitle {
+  font-family: "Noto Serif";
+  font-size: 13px;
+  line-height: 150%;
+  color: #3D3D3C;
 }
 
 .mondi-title {
@@ -28,12 +47,42 @@
   line-height: 136%;
   color: #3D3D3C;
 }
+@media (max-width: 992px) {
+  .mondi-title {
+    font-size: 16px;
+  }
+}
+
+.news-small-text-card {
+  font-family: "Noto Serif";
+  font-size: 9px;
+  line-height: 160%;
+  color: #3D3D3C;
+}
 
 .subtitle-text {
   font-weight: 700;
   font-size: 13px;
   line-height: 140%;
   color: #3D3D3C;
+}
+
+.big-card-title {
+  font-family: "Abhaya Libre";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 114.3%;
+  color: #3D3D3C;
+}
+@media (max-width: 992px) {
+  .big-card-title {
+    font-size: 30px;
+  }
+}
+
+.nostra-border-color {
+  border: 1px solid #3D3D3C;
+  border-radius: 4px;
 }
 
 .title {
@@ -116,18 +165,6 @@ body {
 .news {
   padding: 42px 0 80px 0;
 }
-.news .big-card-title {
-  font-family: "Abhaya Libre";
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 114.3%;
-  color: #3D3D3C;
-}
-@media (max-width: 992px) {
-  .news .big-card-title {
-    font-size: 30px;
-  }
-}
 .news .big-card-subtitle {
   font-family: "Noto Serif";
   font-size: 13px;
@@ -135,13 +172,7 @@ body {
   color: #3D3D3C;
   margin: 50px 0 25px 0;
 }
-.news .big-card-text--color {
-  color: #3D3D3C;
-}
 .news .big-card-text--fz {
-  font-weight: 400;
-  color: #3D3D3C;
-  font-family: "Noto Serif";
   margin: 25px 0 74px 0;
 }
 @media (max-width: 700px) {
@@ -160,12 +191,6 @@ body {
     font-size: 15px;
     line-height: 110%;
   }
-}
-.news .news-small-text-card {
-  font-family: "Noto Serif";
-  font-size: 9px;
-  line-height: 160%;
-  color: #3D3D3C;
 }
 
 .mondi {
@@ -259,4 +284,60 @@ body {
 .sponsor .carousel-control-next {
     padding: 0;
   }
+}
+
+.fiera {
+  padding: 70px 0 90px 0;
+}
+.fiera .fiera-block-texst--p {
+  padding: 80px 85px 90px 85px;
+}
+@media (max-width: 650px) {
+  .fiera .fiera-block-texst--p {
+    padding: 25px;
+  }
+}
+.fiera .first-bg-fiera {
+  background: #059EB3;
+  border-radius: 0px 4px 0px 0px;
+  padding: 55px;
+}
+.fiera .first-bg-fiera img {
+  padding-right: 50px;
+}
+@media (max-width: 650px) {
+  .fiera .first-bg-fiera {
+    padding: 25px;
+  }
+  .fiera .first-bg-fiera img {
+    padding-right: 20px;
+  }
+}
+
+.nostra {
+  padding: 80px 0 90px 0;
+}
+.nostra .nostra-text-block--p {
+  padding: 80px 110px 80px 85px;
+}
+@media (max-width: 550px) {
+  .nostra .nostra-text-block--p {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    padding: 0 30px;
+  }
+}
+.footer .footer--p {
+  padding: 25px 0 90px 0;
+}
+.footer .footer-logo {
+  padding: 30px 0 40px 0;
+}
+
+.footer-text {
+  background-color: #F2F2F2;
 }
