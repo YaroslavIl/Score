@@ -15,12 +15,50 @@
   color: #F39200;
 }
 
+.text1 {
+  font-size: 13px;
+  line-height: 130.4%;
+}
+
 .li-title {
   font-weight: 500;
   font-size: 24px;
   line-height: 136%;
   color: #3D3D3C;
   margin-bottom: 8px;
+}
+
+.italic {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-size: 10px;
+  line-height: 150%;
+  color: #3D3D3C;
+}
+
+.text--p2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #3D3D3C;
+}
+@media (max-width: 992px) {
+  .text--p2 {
+    font-size: 16px;
+  }
+}
+
+.breadcrumb {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 140%;
+  color: #3D3D3C;
+  text-decoration: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: url("../img/product/Arrow 3.png");
+  padding: 0 10px 0 10px;
 }
 
 .big-card-text {
@@ -30,8 +68,20 @@
   color: #F39200;
 }
 
+.text-card {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #F39200;
+}
+
 .big-card-text--color {
   color: #3D3D3C;
+}
+
+.big-card-text--color2 {
+  color: #B5B7C4;
 }
 
 .subtitle {
@@ -122,7 +172,7 @@ body {
   }
 }
 .header .block {
-  height: 125px;
+  height: 120px;
 }
 .header .header-fon {
   background: linear-gradient(270deg, #3D3D3C 0%, rgba(61, 61, 60, 0.2) 100%), url("../img/header-fon.png") center/cover no-repeat;
@@ -340,4 +390,29 @@ body {
 
 .footer-text {
   background-color: #F2F2F2;
+}
+
+.news-p2 {
+  padding: 30px 0 37px 0;
+}
+
+.news--p2 {
+  padding-bottom: 35px;
+}
+
+.product {
+  padding-bottom: 35px;
+}
+
+.news-bg {
+  background: url("../img/product/img1.png") center/cover no-repeat;
+  padding-top: 415px;
+}
+
+.text-news {
+  padding-bottom: 76px;
+}
+
+.product-news--p {
+  padding: 35px 0 70px 0;
 }
