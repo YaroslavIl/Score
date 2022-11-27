@@ -363,6 +363,9 @@ body {
     padding-right: 20px;
   }
 }
+.fiera .secondary-bg-fiera {
+  background-color: #F39200;
+}
 
 .nostra {
   padding: 80px 0 90px 0;
@@ -415,4 +418,13 @@ body {
 
 .product-news--p {
   padding: 35px 0 70px 0;
+}
+
+.hover-efect {
+  transition: all 0.7s;
+}
+.hover-efect:hover {
+  transform: skew(-20deg);
+  background-color: #3D3D3C;
+  color: white;
 }

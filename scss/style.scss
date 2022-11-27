@@ -152,6 +152,7 @@ color: $color2;
 }
 
 
+
 body{
     font-family: 'Noto Serif', serif;
     font-family: 'Poppins', sans-serif;
@@ -360,6 +361,9 @@ body{
             }
         }
     }
+    .secondary-bg-fiera{
+        background-color: #F39200;
+    }
 }
 
 .nostra{
@@ -419,3 +423,13 @@ body{
     padding: 35px 0 70px 0;
 }
 // ==============================page-3=============================================
+
+
+.hover-efect{
+    transition: all 0.7s;
+    &:hover{
+        transform: skew(-20deg);
+        background-color: $color2;
+        color: $color3;
+    }
+}
